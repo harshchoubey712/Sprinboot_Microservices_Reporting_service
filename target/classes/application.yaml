@@ -1,0 +1,9 @@
+server:
+  port: 8083
+
+transaction:
+  base-url: http://localhost:8081  # where your DB service is running
+
+spring:
+  application:
+    name: reporting-service
